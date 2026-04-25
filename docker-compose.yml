@@ -1,0 +1,25 @@
+services:
+  mysql:
+    image: mysql:8.3.0
+    container_name: smart-home-mysql
+    restart: always
+
+    env_file:
+      - .env
+
+    ports:
+      - "3307:3306"
+
+    volumes:
+      - db-data:/var/lib/mysql
+      - mysql-logs:/var/log/mysql
+
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-uroot", "-p${MYSQL_ROOT_PASSWORD}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  db-data:
+  mysql-logs:

@@ -1,0 +1,117 @@
+############################################
+# 🧱 Java / Spring Boot
+############################################
+*.class
+*.log
+*.ctxt
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# JVM crash logs
+hs_err_pid*
+replay_pid*
+
+############################################
+# 🧰 Build tools (Maven / Gradle)
+############################################
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+############################################
+# 🧪 Test / Coverage
+############################################
+coverage/
+*.lcov
+*.exec
+
+############################################
+# 🧾 Logs
+############################################
+logs/
+*.log
+*.out
+
+############################################
+# 🔐 Environment / Secrets
+############################################
+.env
+.env.*
+!.env.example
+
+application.properties
+application.yml
+
+# Allow templates only
+!application-example.yml
+
+############################################
+# 🖥️ OS / System files
+############################################
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+############################################
+# 🧑‍💻 IDEs
+############################################
+
+# IntelliJ
+.idea/
+*.iml
+
+# VSCode
+.vscode/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+############################################
+# 📦 Node (if you have frontend services)
+############################################
+node_modules/
+dist/
+build/
+
+############################################
+# 🐳 Docker
+############################################
+docker-data/
+*.pid
+
+############################################
+# ☁️ Cloud / Deployment
+############################################
+*.pem
+*.key
+*.crt
+
+############################################
+# 📁 Temp / Cache
+############################################
+tmp/
+temp/
+.cache/
+
+############################################
+# 🧬 Misc
+############################################
+*.swp
+*.swo
+*~
