@@ -14,4 +14,4 @@ to stop the docker containers do
 docker compose down
 ```
 
-You might have delete the pre-existing volumes if you are encountering issues with DB
+You might have deleted the pre-existing volumes if you are encountering issues with DB

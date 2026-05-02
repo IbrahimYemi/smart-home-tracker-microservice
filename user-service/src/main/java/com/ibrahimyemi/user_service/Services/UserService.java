@@ -1,8 +1,8 @@
 package com.ibrahimyemi.user_service.Services;
 
 import com.ibrahimyemi.user_service.Repository.UserRepository;
-import com.ibrahimyemi.user_service.app.exceptions.BadRequestException;
-import com.ibrahimyemi.user_service.app.exceptions.NotFoundException;
+import com.ibrahimyemi.user_service.exceptions.BadRequestException;
+import com.ibrahimyemi.user_service.exceptions.NotFoundException;
 import com.ibrahimyemi.user_service.dto.UserDto;
 import com.ibrahimyemi.user_service.dto.UserRequestDto;
 import com.ibrahimyemi.user_service.entity.User;

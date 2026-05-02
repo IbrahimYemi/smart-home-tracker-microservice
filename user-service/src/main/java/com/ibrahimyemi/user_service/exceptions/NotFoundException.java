@@ -1,4 +1,4 @@
-package com.ibrahimyemi.user_service.app.exceptions;
+package com.ibrahimyemi.user_service.exceptions;
 
 public class NotFoundException extends RuntimeException {
     public NotFoundException(String message) {

@@ -1,4 +1,4 @@
-package com.ibrahimyemi.user_service.app.exceptions;
+package com.ibrahimyemi.device_service.app.exceptions;
 
 public class UnauthorizedException extends RuntimeException {
     public UnauthorizedException(String message) {

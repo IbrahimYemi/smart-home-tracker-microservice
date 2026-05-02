@@ -1,4 +1,4 @@
-package com.ibrahimyemi.user_service.app.exceptions;
+package com.ibrahimyemi.device_service.app.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
