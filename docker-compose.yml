@@ -102,6 +102,23 @@ services:
       DYNAMIC_CONFIG_ENABLED: 'true'
     restart: unless-stopped
 
+  influxdb:
+    image: influxdb:2.7
+    ports:
+      - "8072:8086"
+
+    env_file:
+      - .env
+
+    volumes:
+      - ./influxdb_data:/var/lib/influxdb2
+
+  mailpit:
+    image: axllent/mailpit:latest
+    ports:
+      - "8025:8025"
+      - "1025:1025"
+
 volumes:
   db-data:
   mysql-logs:

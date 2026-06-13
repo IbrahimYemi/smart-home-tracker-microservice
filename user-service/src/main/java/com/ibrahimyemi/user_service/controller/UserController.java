@@ -1,6 +1,6 @@
 package com.ibrahimyemi.user_service.controller;
 
-import com.ibrahimyemi.user_service.Services.UserService;
+import com.ibrahimyemi.user_service.services.UserService;
 import com.ibrahimyemi.user_service.dto.UserDto;
 import com.ibrahimyemi.user_service.dto.UserRequestDto;
 import jakarta.validation.Valid;

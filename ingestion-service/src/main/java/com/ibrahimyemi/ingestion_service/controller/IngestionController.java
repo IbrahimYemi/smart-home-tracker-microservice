@@ -1,7 +1,7 @@
 package com.ibrahimyemi.ingestion_service.controller;
 
 import com.ibrahimyemi.ingestion_service.dto.EnergyUsageDto;
-import com.ibrahimyemi.ingestion_service.services.IngestionService;
+import com.ibrahimyemi.ingestion_service.service.IngestionService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

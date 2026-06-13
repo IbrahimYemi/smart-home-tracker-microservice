@@ -1,6 +1,6 @@
 package com.ibrahimyemi.user_service;
 
-import com.ibrahimyemi.user_service.Repository.UserRepository;
+import com.ibrahimyemi.user_service.repository.UserRepository;
 import com.ibrahimyemi.user_service.entity.User;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Disabled;
